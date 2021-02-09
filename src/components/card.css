@@ -1,0 +1,29 @@
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.card .header {
+  display: flex;
+  justify-content: center;
+}
+
+.card .header .title {
+  flex: 1;
+  padding: 5px;
+}
+
+.card .content {
+  padding: 20px;
+}
+
+.card.red .header { color: #FFF; background-color: #C62828; }
+.card.red .content { color: #FFF; background-color: #F44336; }
+.card.green .header { color: #FFF; background-color: #2E7D32; }
+.card.green .content { color: #FFF; background-color: #4CAF50; }
+.card.blue .header { color: #FFF; background-color: #1565C0; }
+.card.blue .content { color: #FFF; background-color: #2196F3; }
+.card.purple .header { color: #FFF; background-color: #6A17B0; }
+.card.purple .content { color: #FFF; background-color: #9C27B0; }
