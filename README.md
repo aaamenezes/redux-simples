@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esse projeto foi desenvolveido para fins didátivcos.
+Esse projeto foi desenvolveido para fins didáticos.
 
 Basicamente, o usuário seleciona um intervalo de números (mínimo e máximo) e o site gera:
 
@@ -10,36 +10,50 @@ Basicamente, o usuário seleciona um intervalo de números (mínimo e máximo) e
 - A média
 - E um número aleatório entre eles
 
-O projeto é bem simples, e algo desse tamanho não justificar utilizar o Redux, porém foi utilizado apenas para fins didáticos.
-
-[Link do repositório](https://github.com/aaamenezes/redux-simples).
-
-<!-- ## Publicação
-
-[veja como ficou o projeto](https://poliquiz.vercel.app/). -->
+O projeto é bem simples, e algo desse tamanho não justificaria utilizar o Redux, porém foi utilizado apenas para fins educativos.
 
 ## Tecnologias utilizadas
 
 O projeto foi majoritariamente desenvolvido em **React.JS** e **Redux** para controlar globalmente os estados da aplicação.
 
-<!-- ## Principais recursos
-
- -->
-
 ## Licença
 
 Não se aplica.
 
-<!-- ## Inspirações
+## Como rodar esse projeto em seu computador
 
- -->
+1. Faça um clone do projeto em seu computador:
 
-## Como iniciar o projeto
+```
+git clone https://github.com/aaamenezes/Caosfonia.git
+```
 
-Você pode iniciar o projeto com o [Create React App](https://github.com/facebook/create-react-app).
+2. Acesse a pasta do projeto:
 
-No diretório do projeto, execute o comando:
+```
+cd Caosfonia
+```
 
-`yarn start`
+3. Instale as dependências:
 
-A aplicação irá rodar no endereço [http://localhost:3000](http://localhost:3000).
+```
+npm i
+```
+
+Ou:
+
+```
+yarn
+```
+
+4. Inicie o projeto:
+
+```
+npm run start
+```
+
+Ou: 
+
+```
+yarn start
+```
