@@ -31,7 +31,7 @@ git clone https://github.com/aaamenezes/Caosfonia.git
 2. Acesse a pasta do projeto:
 
 ```
-cd Caosfonia
+cd Redux-Simples
 ```
 
 3. Instale as dependências:
